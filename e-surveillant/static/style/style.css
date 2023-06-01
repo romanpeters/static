@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.middle {
+	text-align: center;
+}
+
+/* mobile */
+.centered {
+	padding: 10px;
+}
+
+/* desktop */
+@media (min-width:900px) {
+    .centered {
+	    position: absolute;
+	    top: 10%;
+	    left: 20%;
+	    right: 20%;
+    }
+}
+
+.form {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+
+#feed_url {
+    overflow:auto;
+    resize: none;
+    width: 26em;
+    height: 2em;
+}
